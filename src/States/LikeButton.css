@@ -1,0 +1,24 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.heart-container {
+  cursor: pointer;
+}
+
+.fa-heart {
+  font-size: 80px;
+  color: red;
+  transition: transform 0.3s ease;
+}
+
+.fa-heart:hover {
+  transform: scale(1.2);
+}
+
+.count {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 15px;
+}
