@@ -1,19 +1,19 @@
-import Index from './Index';
-//
-import './Props/style.css';
-import Image from './assets/image.png';
-import Image1 from './assets/image1.png';
-import Props from './Props/Props';
-//
-function App(){
+// // Props
+// import './Props/style.css';
+import "./App.css";
+import Project from "./Props/Project";
+// import Image from './assets/image.png';
+// import Image1 from './assets/image1.png';
+// import StyleProps from './Props/StyleProps';
+// import Props from './Props/Props';
+// //
+function App() {
   return (
     <div>
-      <h1>Hello React</h1>
-      <Index />
-      
-      <Props title="My second Prop" name="Jane" age={25} image={Image1} />
-      <Props title="My First Prop" name="John" age={30} image={Image} />
+      <Project title="Iphone 12" idx={0} />
+      <Project title="MacBook Pro" idx={1} />
+      <Project title="PlayStation 5" idx={2} />
     </div>
-  )
+  );
 }
-export default App; 
+export default App;

@@ -1,0 +1,42 @@
+/* Project component styles */
+.project-container {
+  max-width: 720px;
+  margin: 20px auto;
+  padding: 16px;
+  text-align: center;
+}
+.project-title {
+  color: #222;
+  font-size: 1.75rem;
+  margin-bottom: 8px;
+}
+.project-description {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 12px;
+}
+.price-card {
+  display: inline-block;
+  width: 240px;
+  margin: 10px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+}
+.old-price {
+  text-decoration: line-through;
+  color: #c0392b;
+  font-weight: 600;
+}
+.new-price {
+  color: #27ae60;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-top: 6px;
+}
+@media (max-width: 600px) {
+  .price-card { width: 90%; }
+  .project-title { font-size: 1.5rem; }
+}

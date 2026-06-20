@@ -17,3 +17,53 @@
      height: 60%;
      overflow: hidden;
 }
+/* Project Container */
+div {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Title */
+h1 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* Description */
+p {
+  color: #666;
+  font-size: 1rem;
+}
+
+/* Price Card */
+.card {
+  width: 250px;
+  margin: 15px auto;
+  padding: 15px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Old Price */
+.card p:first-child {
+  text-decoration: line-through;
+  color: red;
+  font-weight: bold;
+}
+
+/* New Price */
+.card p:last-child {
+  color: green;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Hover Effect */
+.card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
