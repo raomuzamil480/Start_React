@@ -11,10 +11,15 @@ import Button from './Button/Button';
 import State from './States/UseState';
 // Like Button
 import LikeButton from './States/LikeButton';
+import Practice from './States/pratice';
+import Todo from "./Todo/Todo";
 
 function App() {
   return (
     <div>
+      <Practice/>
+      <Todo/>
+
       <Button />
       <State />
       <hr />
