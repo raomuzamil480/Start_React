@@ -1,0 +1,17 @@
+.search-box {
+     position: relative;
+     width: 100%;
+     max-width: 400px;
+     margin: 0 auto;
+     }
+.button {
+     position: absolute;
+     right: 0;
+     top: 0;
+     height: 100%;
+     background-color: #007BFF;
+     color: white;
+     border: none;
+     padding: 0 15px;
+     cursor: pointer;
+     }
