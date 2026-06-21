@@ -1,7 +1,7 @@
 // // Props
 // import './Props/style.css';
 import "./App.css";
-import Searchox from "./Weather/SearchBox";
+//import Searchox from "./Weather/SearchBox";
 import Weather from "./Weather/Weather";
 //import Project from "./Props/Project";
 // import Image from './assets/image.png';
@@ -21,7 +21,7 @@ function App() {
   return (
     <div>
       <h1>Weather App</h1>
-      <Weather/>
+      <Weather />
       {/* <Practice/>
       <Todo/>
       <Lotary/>
